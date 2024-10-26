@@ -1,17 +1,26 @@
-# How unit test with Jest
+# How to write unit tests with Jest for React
 npm install --save-dev jest
 
-# Enzyme is deprecated no React 18 support
-# Use React-Testing-Library (RTL)
+## Enzyme is deprecated no support for React 18 
+## Use React-Testing-Library (RTL)
 
-# How unit tests with Jest and RTL
+# How to run unit tests with Jest and RTL
+```
+npm run jest
+```
 
+# How to start Storybook
+```
+npm run storybook
+```
 
-# DOM Testing
+# Types of Tests
+
+## DOM Testing
 validates component functionality
 
-# Render Testing
+## Render Testing
 verify UI behaviors
 
-# Snapshot Testing
+## Snapshot Testing
 takes snapshot of component and compares with baseline
